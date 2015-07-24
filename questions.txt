@@ -1,4 +1,8 @@
 Article.all is an activerecord::relation
-Article.all returns an 
+Article.all returns a(n) ?
 Each article is an instance of the class Article 
 Explanation of :: module
+
+What are the patch and put methods used for in the article helper?
+
+How would I flash a notice stating the name of the article that was just deleted? (store info about the article before destroyed?)
