@@ -1,0 +1,4 @@
+Article.all is an activerecord::relation
+Article.all returns an 
+Each article is an instance of the class Article 
+Explanation of :: module
