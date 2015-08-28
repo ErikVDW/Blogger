@@ -1,6 +1,12 @@
 <h1><%= @article.title %></h1>
 <p><%= @article.body %></p>
-
+<p><%= @article.tag_list %></p>
+<p>
+  Tags:
+  <% @article.tags.each do |tag| %>
+    <%= link_to tag.name, tag_path(tag) %>
+  <% end %>
+</p>
 <h1>New Comment</h1>
 <%= render partial: 'comments/form' %>
 
